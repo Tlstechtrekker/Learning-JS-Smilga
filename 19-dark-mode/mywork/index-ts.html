@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark Mode</title>
+    <link rel="stylesheet" href="./styles-ts.css" />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="nav-center">
+          <span>overreacted</span>
+          <button class="btn">toggle</button>
+        </div>
+      </nav>
+      <section class="articles">
+        <!-- single post -->
+        <h2>articles go here</h2>
+        <!-- end of single post -->
+      </section>
+    </main>
+    <!-- moment.js script CDN reference --  this is DIFFERENT from the one in the video - this is for the non-minified version-there's a bug in the minified version at cdnjs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.js" integrity="sha512-CTSrPIDxxtTdaIYlTKHEyvHa+70TOhC1pY3PLDgrUqCFifFtV7KrucZCvPy2K7hB0HtKgt0r4INTGBISqnaLNg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- data -->
+    <script src="./data.js"></script>
+    <!-- logic -->
+    <script src="./app-ts.js"></script>
+  </body>
+</html>
